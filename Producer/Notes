@@ -1,0 +1,19 @@
+Producer Side
+
+KafkaTemplate → Used to send messages to Kafka topics.
+
+ProducerFactory → Creates Kafka Producer instances.
+
+DefaultKafkaProducerFactory → Default implementation that creates Kafka producers.
+
+StringSerializer → Converts String keys into bytes before sending to Kafka.
+
+JacksonJsonSerializer → Converts Java objects into JSON before sending to Kafka.
+
+BOOTSTRAP_SERVERS_CONFIG → Specifies the Kafka broker address.
+
+ADD_TYPE_INFO_HEADERS → Controls whether Java class type information is added to Kafka message headers.
+
+topic → Logical channel where messages are stored and consumed.
+
+send() → Publishes a message to a Kafka topic.
