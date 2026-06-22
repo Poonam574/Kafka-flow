@@ -1,0 +1,23 @@
+Consumer Side
+
+@KafkaListener → Listens for messages from Kafka topics.
+
+ConsumerFactory → Creates Kafka Consumer instances.
+
+DefaultKafkaConsumerFactory → Default implementation that creates Kafka consumers.
+
+ConcurrentKafkaListenerContainerFactory → Creates listener containers used by @KafkaListener.
+
+StringDeserializer → Converts Kafka key bytes into String.
+
+JacksonJsonDeserializer → Converts JSON messages into Java objects.
+
+GROUP_ID_CONFIG → Identifies the consumer group.
+
+groupId → Consumers with the same group-id share messages.
+
+BOOTSTRAP_SERVERS_CONFIG → Kafka broker address used by the consumer.
+
+addTrustedPackages() → Specifies which packages are allowed for JSON deserialization.
+
+OrderEvent.class → Tells the deserializer to convert JSON into an OrderEvent object.

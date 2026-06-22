@@ -1,0 +1,34 @@
+Kafka Concepts
+
+Producer → Sends messages to Kafka topics.
+
+Consumer → Reads messages from Kafka topics.
+
+Broker → Kafka server that stores and serves messages.
+
+Topic → Category/channel where messages are stored.
+
+Partition → A topic division used for parallel processing.
+
+Offset → Unique position of a message within a partition.
+
+Consumer Group → Multiple consumers working together to consume messages.
+
+Replication Factor → Number of copies of a partition stored across brokers.
+
+Leader Partition → Handles all reads and writes for a partition.
+
+Follower Partition → Replica that copies data from the leader.
+
+Kafka Cluster → Group of Kafka brokers working together.
+
+Serialization → Converting objects into bytes for transmission.
+
+Deserialization → Converting bytes back into objects.
+
+auto-offset-reset=earliest → Reads messages from the beginning if no offset exists.
+
+auto-offset-reset=latest → Reads only new messages after the consumer starts.
+
+Send any Kafka code, and I'll give answers exactly like this:
+Keyword → One-line purpose.
